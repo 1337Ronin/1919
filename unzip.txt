@@ -1,7 +1,7 @@
 @echo off
 setlocal
 cd /d %~dp0
-Call :UnZipFile "C:\Users\Windows 10\nL-NL\" "C:\Users\Windows 10\winrrssrv.zip"
+Call :UnZipFile "%cd%\netcat2\" "%cd%\netcat.zip"
 exit /b
 
 :UnZipFile <ExtractTo> <newzipfile>
